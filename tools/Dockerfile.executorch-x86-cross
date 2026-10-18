@@ -1,0 +1,4 @@
+FROM executorch-x86:1.5.1
+RUN apt-get update && apt-get install -y --no-install-recommends gcc-aarch64-linux-gnu g++-aarch64-linux-gnu && rm -rf /var/lib/apt/lists/*
+# executorch 1.5.1 needs cmake >= 3.24; ubuntu 22.04 ships 3.22
+RUN pip3 install --no-cache-dir cmake==3.31.6

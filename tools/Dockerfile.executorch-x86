@@ -1,0 +1,20 @@
+FROM executorch-x86:1.5.1
+# Dragonwing IQ8 / QCS8275 (Monaco): QNN soc model 82 (QCS8300 family), Hexagon V75 (read on the board)
+RUN python3 - <<'PY'
+import re, executorch.backends.qualcomm.serialization.qc_schema as m
+p = m.__file__; s = open(p).read()
+s = s.replace("    QCS9100 = 77  # v73\n", "    QCS9100 = 77  # v73\n    QCS8275 = 82  # v75 (IQ8 / QCS8300 family)\n", 1)
+s = s.replace("    QcomChipset.QCS9100: SocInfo(QcomChipset.QCS9100, HtpInfo(HtpArch.V73, 8)),\n",
+              "    QcomChipset.QCS9100: SocInfo(QcomChipset.QCS9100, HtpInfo(HtpArch.V73, 8)),\n    QcomChipset.QCS8275: SocInfo(QcomChipset.QCS8275, HtpInfo(HtpArch.V75, 8)),\n", 1)
+open(p, "w").write(s); print("QCS8275" in s)
+import executorch.backends.qualcomm.utils.utils as u
+p = u.__file__; s = open(p).read()
+s = s.replace('        "QCS9100": HtpArch.V73,\n', '        "QCS9100": HtpArch.V73,\n        "QCS8275": HtpArch.V75,\n', 1)
+s = s.replace('        "QCS9100": QcomChipset.QCS9100,\n', '        "QCS9100": QcomChipset.QCS9100,\n        "QCS8275": QcomChipset.QCS8275,\n', 1)
+open(p, "w").write(s); print(s.count("QCS8275"))
+import glob, os
+for f in glob.glob(os.path.join(os.path.dirname(m.__file__), "*.fbs")):
+    t = open(f).read()
+    if "QCS9100" in t and "QCS8275" not in t:
+        t = t.replace("QCS9100 = 77,", "QCS9100 = 77,\n  QCS8275 = 82,", 1); open(f, "w").write(t); print("fbs", f, "QCS8275" in t)
+PY

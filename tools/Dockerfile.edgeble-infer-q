@@ -1,0 +1,11 @@
+# edgeble-infer for the VENTUNO Q (Ubuntu 24.04 aarch64), built under emulation on the laptop,
+# shipped to the board as a docker image (the board has docker for the user, no compiler, no sudo)
+FROM --platform=linux/arm64 ubuntu:24.04
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y --no-install-recommends cmake g++ ninja-build make pkg-config libopencv-dev libmodbus-dev libeigen3-dev libjpeg-dev ca-certificates gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-libav v4l-utils && rm -rf /var/lib/apt/lists/*
+COPY qairt /opt/qairt
+COPY executorch /opt/executorch
+COPY edgeble-infer /opt/edgeble-infer
+RUN cd /opt/edgeble-infer && ./build.sh -p qcom -z /opt/qairt -e /opt/executorch -j 8 2>&1 | tail -n 5
+WORKDIR /opt/edgeble-infer/install/qcom_linux_aarch64/rknn_yolo11_demo
+ENV LD_LIBRARY_PATH=/opt/edgeble-infer/install/qcom_linux_aarch64/rknn_yolo11_demo/lib:/qnn-libs EDGEBLE_QNN_LIBS=/qnn-libs ADSP_LIBRARY_PATH="/qnn-libs;/usr/lib/rfsa/adsp;/dsp"
