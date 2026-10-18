@@ -10,11 +10,8 @@ an Arduino VENTUNO Q through ExecuTorch's Qualcomm backend, and a small float ta
 network is retrained **on the device, in seconds**, when the line's conditions make the sealed
 model fail. Built at the ExecuTorch hackathon, San Francisco, 17-18 October 2026.
 
-**Demo video (2 min 11 s):** [docs/video/demo-self-correction.mp4](docs/video/demo-self-correction.mp4),
-recorded at the venue on 2026-10-18: the two panes on the mixed clip with the judge's corrections in the
-one-strip part, the board load, and how to start it from this repository.
-**Setup video (13 s):** [docs/video/setup-rig-and-laptop.mp4](docs/video/setup-rig-and-laptop.mp4), the rig,
-the VENTUNO Q, the camera and strips, and the output on the laptop.
+**Demo video:** [docs/video/setup-rig-and-laptop.mp4](docs/video/setup-rig-and-laptop.mp4), recorded at the
+venue on 2026-10-18: the rig, the VENTUNO Q, the camera and the light strips, and the two panes on the laptop.
 
 > Status markers: [done] verified on hardware, [pending] in progress, [doc] documented from the
 > RK3588 reference pipeline, not run on the Q.
