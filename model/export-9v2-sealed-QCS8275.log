@@ -1,0 +1,1087 @@
+WARNING ⚠️ user config directory '/tmp/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+Creating new Ultralytics Settings v0.0.6 file ✅ 
+View Ultralytics Settings with 'yolo settings' or at '/tmp/Ultralytics/settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.
+YOLO11n summary (fused): 101 layers, 2,597,780 parameters, 0 gradients, 6.4 GFLOPs
+WARNING:torchao.kernel.intmm:Warning: Detected no triton, on systems without Triton certain kernels will not work
+W1018 06:56:53.968000 1 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+WARNING:root:The backend_opinfo module couldn't be imported, so the abstract implementation will be used instead. This might be because the QNN SDK could not be set up, because $QNN_SDK_ROOT/lib/python isn't included in your PYTHONPATH, or because the `BackendOpInfo` API isn't available in your QNN SDK version. Note that the `BackendOpInfo` API is supported starting from QNN SDK 2.41 and above.
+WARNING:executorch.exir.pass_manager:PassManager is deprecated. Please use ExportedProgramPassManager instead.
+WARNING:root:Could not resolve quant range for node: chunk
+WARNING:root:Could not resolve quant range for node: chunk_1
+WARNING:root:Could not resolve quant range for node: chunk_2
+WARNING:root:Could not resolve quant range for node: chunk_3
+WARNING:root:Could not resolve quant range for node: split_with_sizes
+WARNING:root:Could not resolve quant range for node: split_with_sizes_1
+WARNING:root:Could not resolve quant range for node: chunk_4
+WARNING:root:Could not resolve quant range for node: chunk_5
+WARNING:root:Could not resolve quant range for node: chunk_6
+WARNING:root:Could not resolve quant range for node: chunk_7
+WARNING:executorch.exir.pass_manager:PassManager is deprecated. Please use ExportedProgramPassManager instead.
+[INFO] [Qnn ExecuTorch]: Creating new backend bundle.
+[INFO] [Qnn ExecuTorch]: create QNN Logger with log_level 1
+[WARNING] [Qnn ExecuTorch]: Qnn API version 2.28.0 is used. The version is tested against 2.27.0.
+WARNING:root:Op aten.unbind.int was requested for preservation by partitioner.  This request is ignored because it aliases output.
+WARNING:root:Op aten.unbind.int was requested for preservation by partitioner.  This request is ignored because it aliases output.
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.clamp.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sum.dim_IntList | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.clamp.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sum.dim_IntList | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.clamp.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sum.dim_IntList | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.split_with_sizes_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.split_with_sizes_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.split_with_sizes_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.upsample_nearest2d.vec | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.split_with_sizes_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.upsample_nearest2d.vec | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.view_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.view_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.matmul.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.permute_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._softmax.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.view_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_tensor.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.matmul.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.permute_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.split_with_sizes_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.view_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.split_with_sizes_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.max_pool2d_with_indices.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.constant_pad_nd.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.max_pool2d_with_indices.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.constant_pad_nd.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.max_pool2d_with_indices.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.constant_pad_nd.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.split_with_sizes_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.split_with_sizes_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.split_with_sizes_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.cat.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.add.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] getitem | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.split_with_sizes_copy.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.mul.Tensor | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.sigmoid.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten.convolution.default | True
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] quantized_decomposed.dequantize_per_channel.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:[QnnPartitioner] aten._to_copy.default | Forced Passed
+INFO:executorch.backends.qualcomm.partition.qnn_partitioner:Qnn partitioner will delegate torch mutable buffer with the same I/O address during the runtime, so if your model contains mutable buffer, then you can get the better performance with skip_mutable_buffer=False. If you encounter accuracy issue during the runtime, then please set `skip_mutable_buffer=True` and try again.
+[INFO] [Qnn ExecuTorch]: Initialize Qnn backend parameters for Qnn executorch backend type 2
+[INFO] [Qnn ExecuTorch]: Caching: Caching is in SAVE MODE.
+[INFO] [Qnn ExecuTorch]: Running level=3 optimization.
+INFO:executorch.backends.qualcomm.qnn_preprocess:Processing Method(0): (1/1)
+WARNING:executorch.exir.pass_manager:PassManager is deprecated. Please use ExportedProgramPassManager instead.
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: quantized_decomposed_quantize_per_tensor_default, quantized_decomposed.quantize_per_tensor.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_2, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_1, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_1, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_1, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_2, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_2, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_2, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_split_with_sizes_copy_default, aten.split_with_sizes_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_1, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_3, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_3, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_3, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_4, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_4, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_4, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_5, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_5, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_5, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_6, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_6, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_6, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_7, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_7, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_7, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_split_with_sizes_copy_default_1, aten.split_with_sizes_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_2, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_3, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_8, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_8, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_8, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_9, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_9, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_9, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor_1, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_1, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_10, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_10, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_10, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_11, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_11, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_11, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_12, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_12, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_12, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_split_with_sizes_copy_default_2, aten.split_with_sizes_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_4, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_5, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_13, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_13, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_13, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_14, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_14, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_14, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_15, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_15, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_15, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor_2, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_16, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_16, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_16, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_17, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_17, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_17, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor_3, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_18, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_18, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_18, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_2, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_19, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_19, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_19, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_3, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_20, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_20, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_20, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_21, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_21, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_21, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_22, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_22, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_22, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_split_with_sizes_copy_default_3, aten.split_with_sizes_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_6, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_7, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_23, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_23, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_23, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_24, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_24, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_24, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_25, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_25, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_25, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor_4, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_26, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_26, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_26, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_27, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_27, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_27, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor_5, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_28, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_28, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_28, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_4, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_29, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_29, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_29, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_5, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_30, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_30, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_30, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_31, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_31, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_31, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_constant_pad_nd_default, aten.constant_pad_nd.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_max_pool2d_with_indices_default, aten.max_pool2d_with_indices.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_8, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_constant_pad_nd_default_1, aten.constant_pad_nd.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_max_pool2d_with_indices_default_1, aten.max_pool2d_with_indices.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_9, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_constant_pad_nd_default_2, aten.constant_pad_nd.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_max_pool2d_with_indices_default_2, aten.max_pool2d_with_indices.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_10, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_6, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_32, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_32, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_32, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_33, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_33, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_33, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_split_with_sizes_copy_default_4, aten.split_with_sizes_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_11, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_12, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_34, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_5, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_view_copy_default, aten.view_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_split_with_sizes_copy_default_5, aten.split_with_sizes_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_13, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_14, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_15, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_matmul_default, aten.matmul.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_view_copy_default_1, aten.view_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_34, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten__softmax_default, aten._softmax.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_1, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_matmul_default_1, aten.matmul.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_view_copy_default_2, aten.view_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_3, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_view_copy_default_3, aten.view_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_4, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_35, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor_6, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_36, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor_7, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_37, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_34, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_35, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_38, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor_8, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_7, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_39, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_35, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_36, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_upsample_nearest2d_vec, aten.upsample_nearest2d.vec
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_8, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_40, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_36, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_37, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_split_with_sizes_copy_default_6, aten.split_with_sizes_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_16, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_17, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_41, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_37, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_38, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_42, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_38, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_39, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor_9, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_9, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_43, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_39, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_40, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_upsample_nearest2d_vec_1, aten.upsample_nearest2d.vec
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_10, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_44, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_40, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_41, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_split_with_sizes_copy_default_7, aten.split_with_sizes_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_18, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_19, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_45, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_41, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_42, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_46, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_42, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_43, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor_10, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_11, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_47, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_43, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_44, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_48, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_44, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_45, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_12, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_49, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_45, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_46, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_split_with_sizes_copy_default_8, aten.split_with_sizes_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_20, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_21, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_50, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_46, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_47, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_51, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_47, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_48, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor_11, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_13, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_52, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_48, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_49, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_53, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_49, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_50, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_14, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_54, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_50, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_51, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_split_with_sizes_copy_default_9, aten.split_with_sizes_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_22, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: getitem_23, getitem
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_55, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_51, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_52, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_56, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_52, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_53, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_57, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_53, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_54, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor_12, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_58, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_54, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_55, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_59, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_55, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_56, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_add_tensor_13, aten.add.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_60, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_56, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_57, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_15, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_61, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_57, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_58, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_cat_default_16, aten.cat.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_62, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_58, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_59, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_63, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_59, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_60, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_64, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_60, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_61, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_65, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_8, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: quantized_decomposed_dequantize_per_tensor_default_1, quantized_decomposed.dequantize_per_tensor.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_66, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_61, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_62, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_67, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_62, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_63, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_68, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_63, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_64, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_69, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_64, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_65, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_70, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_65, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_6, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: quantized_decomposed_dequantize_per_tensor_default_2, quantized_decomposed.dequantize_per_tensor.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sum_dim_int_list, aten.sum.dim_IntList
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_clamp_default, aten.clamp.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_7, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: quantized_decomposed_dequantize_per_tensor_default_3, quantized_decomposed.dequantize_per_tensor.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_71, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_66, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_66, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_72, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_67, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_67, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_73, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_11, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: quantized_decomposed_dequantize_per_tensor_default_4, quantized_decomposed.dequantize_per_tensor.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_74, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_68, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_68, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_75, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_69, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_69, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_76, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_70, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_70, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_77, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_71, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_71, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_78, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_72, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_9, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: quantized_decomposed_dequantize_per_tensor_default_5, quantized_decomposed.dequantize_per_tensor.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sum_dim_int_list_1, aten.sum.dim_IntList
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_clamp_default_1, aten.clamp.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_10, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: quantized_decomposed_dequantize_per_tensor_default_6, quantized_decomposed.dequantize_per_tensor.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_79, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_73, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_72, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_80, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_74, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_73, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_81, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_12, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: quantized_decomposed_dequantize_per_tensor_default_7, quantized_decomposed.dequantize_per_tensor.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_82, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_75, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_74, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_83, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_76, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_75, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_84, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_77, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_76, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_85, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_78, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_mul_tensor_77, aten.mul.Tensor
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_convolution_default_86, aten.convolution.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sigmoid_default_79, aten.sigmoid.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_14, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: quantized_decomposed_dequantize_per_tensor_default_8, quantized_decomposed.dequantize_per_tensor.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_sum_dim_int_list_2, aten.sum.dim_IntList
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_clamp_default_2, aten.clamp.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: aten_permute_copy_default_13, aten.permute_copy.default
+INFO:executorch.backends.qualcomm.qnn_preprocess:Visiting: quantized_decomposed_dequantize_per_tensor_default_9, quantized_decomposed.dequantize_per_tensor.default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=2336768
+read_total_bytes=7878656
+
+[INFO] [Qnn ExecuTorch]: Destroy Qnn context
+WARNING:root:Op aten.unbind.int was requested for preservation by partitioner.  This request is ignored because it aliases output.
+[INFO] [Qnn ExecuTorch]: Destroy Qnn device
+[INFO] [Qnn ExecuTorch]: Destroy Qnn backend
+outputs: [(1, 64, 80, 80), (1, 4, 80, 80), (1, 1, 80, 80), (1, 64, 40, 40), (1, 4, 40, 40), (1, 1, 40, 40), (1, 64, 20, 20), (1, 4, 20, 20), (1, 1, 20, 20)]
+quant config: 8a8w act observer Histogram
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+No quant config is implemented for op, aten.silu_.default
+PTQ calibrated on 70 frames in 21s
+edge graph after lowering: {'executorch_call_delegate': 1, '<built-in function getitem>': 9}
+pte: /work/et-work/out/9v-bat-2_QCS8275_8a8w.pte 3132160 bytes, build 65s
+inputs : [{'name': 'x', 'dtype': 'torch.float32', 'shape': [1, 3, 640, 640]}]
+outputs: [{'name': 'getitem', 'dtype': 'torch.float32', 'shape': [1, 64, 80, 80]}, {'name': 'getitem_1', 'dtype': 'torch.float32', 'shape': [1, 4, 80, 80]}, {'name': 'getitem_2', 'dtype': 'torch.float32', 'shape': [1, 1, 80, 80]}, {'name': 'getitem_3', 'dtype': 'torch.float32', 'shape': [1, 64, 40, 40]}, {'name': 'getitem_4', 'dtype': 'torch.float32', 'shape': [1, 4, 40, 40]}, {'name': 'getitem_5', 'dtype': 'torch.float32', 'shape': [1, 1, 40, 40]}, {'name': 'getitem_6', 'dtype': 'torch.float32', 'shape': [1, 64, 20, 20]}, {'name': 'getitem_7', 'dtype': 'torch.float32', 'shape': [1, 4, 20, 20]}, {'name': 'getitem_8', 'dtype': 'torch.float32', 'shape': [1, 1, 20, 20]}]
+frame 0:
+  float        Negative 0.91 [371,239,460,396] | positive 0.89 [246,230,321,387]
+  int8-sim     Negative 0.91 [371,239,460,396] | positive 0.86 [246,230,321,387]
+frame 1:
+  float        Negative 0.92 [371,239,460,396] | positive 0.89 [245,231,321,386]
+  int8-sim     Negative 0.91 [371,239,460,395] | positive 0.89 [246,231,321,387]
+frame 2:
+  float        Negative 0.92 [371,240,460,396] | positive 0.89 [245,233,320,386]
+  int8-sim     Negative 0.91 [371,240,459,396] | positive 0.86 [245,233,320,386]
+exit 0
