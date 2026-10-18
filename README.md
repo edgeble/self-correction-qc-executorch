@@ -1,8 +1,9 @@
 # A self-correcting runtime for deployed vision models
 
 ExecuTorch hackathon, IoT track, Arduino VENTUNO Q. Qualcomm Dragonwing QCS8275, ExecuTorch,
-sealed front on the NPU, trainable head on the CPU. **Correct now. Fix forever. Nothing leaves
-the device.**
+sealed front on the NPU, trainable head on the CPU.
+
+**Correct now. Fix forever. Nothing leaves the device.**
 
 Battery terminal inspection on a rotating rig: a YOLO11n detector runs sealed on the Hexagon NPU of
 an Arduino VENTUNO Q through ExecuTorch's Qualcomm backend, and a small float tail of the same
