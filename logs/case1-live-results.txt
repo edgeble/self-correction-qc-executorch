@@ -1,0 +1,16 @@
+2026-10-18 10:49:38 | ShiftA | TOTAL:1 | GO:0 | NG:1 | RESULT:NG | LL:Miss_Match_Positive 87.34% | LR:Miss_Match_Negative 87.34% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:50:15 | ShiftA | TOTAL:2 | GO:0 | NG:2 | RESULT:NG | LL:Positive 75.12% | LR:Miss_Match_Negative 75.12% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:50:33 | ShiftA | TOTAL:3 | GO:0 | NG:3 | RESULT:NG | LL:Positive 89.49% | LR:Miss_Match_Positive 89.49% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:50:50 | ShiftA | TOTAL:4 | GO:0 | NG:4 | RESULT:NG | LL:Positive 87.34% | LR:Negative 87.34% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:51:09 | ShiftA | TOTAL:5 | GO:0 | NG:5 | RESULT:NG | LL:Positive 89.13% | LR:Negative 89.13% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:51:47 | ShiftA | TOTAL:6 | GO:0 | NG:6 | RESULT:NG | LL:Miss_Match_Positive 79.07% | LR:Miss_Match_Negative 79.07% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:52:05 | ShiftA | TOTAL:7 | GO:0 | NG:7 | RESULT:NG | LL:Miss_Match_Positive 90.21% | LR:Miss_Match_Negative 90.21% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:52:22 | ShiftA | TOTAL:8 | GO:0 | NG:8 | RESULT:NG | LL:Positive 88.06% | LR:Negative 88.06% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:52:40 | ShiftA | TOTAL:9 | GO:0 | NG:9 | RESULT:NG | LL:Positive 88.42% | LR:Negative 88.42% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:54:48 | ShiftA | TOTAL:10 | GO:0 | NG:10 | RESULT:NG | LL:Positive 89.13% | LR:Negative 89.13% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:55:06 | ShiftA | TOTAL:11 | GO:0 | NG:11 | RESULT:NG | LL:Positive 88.77% | LR:Negative 88.77% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:55:45 | ShiftA | TOTAL:12 | GO:0 | NG:12 | RESULT:NG | LL:Positive 88.77% | LR:Negative 88.77% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:56:06 | ShiftA | TOTAL:13 | GO:0 | NG:13 | RESULT:NG | LL:Miss_Match_Positive 89.49% | LR:Miss_Match_Negative 89.49% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:56:46 | ShiftA | TOTAL:14 | GO:0 | NG:14 | RESULT:NG | LL:Miss_Match_Positive 75.84% | LR:Miss_Match_Negative 75.84% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:57:28 | ShiftA | TOTAL:15 | GO:0 | NG:15 | RESULT:NG | LL:Positive 89.13% | LR:Negative 89.13% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:57:49 | ShiftA | TOTAL:16 | GO:0 | NG:16 | RESULT:NG | LL:Positive 89.49% | LR:Negative 89.49% | QC:NG | QR:NG | REASON:STICKER

@@ -1,0 +1,8 @@
+10:44:56 restart, empty ring, lights 3 (DO=111); batteries added one by one
+10:58:46 stopped; case-1 clips 104930..105800 joined; lights back to 3
+11:00:12 CASE-2 start: good batteries, lights 1 (DO=100), camera locked with lights 3 first
+11:03:35 stopped (case-2 clips 105958..); lights back to 3
+11:29:46 CASE-2 redo start: good batteries, lights 1 requested (DO=100), awaiting visual confirmation
+11:33:02 CASE-2 restart with ghost filter OFF, lights 1 (DO=100) requested
+11:34:17 lights: only DO3 on (DO=001), looking for the false positives
+11:40:08 stopped; side clip (good batteries, one strip, ghost filter off) = 113248..; lights back to 3. Plan: case-2 = bad batteries, all strips

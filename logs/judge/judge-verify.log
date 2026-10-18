@@ -1,0 +1,85 @@
+[VERIFY] verify.conf: enabled=1 confirm=0.600 novel=0.800 margin=0.050 breaker=8/60s validity=15/40
+[VERIFY] bank: dim=256 classes=4 vecs=390 (/gt/reference/bank.evbk)
+[VERIFY]   Miss_match Positive id=0 vecs=90
+[VERIFY]   Miss_match_Negative id=1 vecs=75
+[VERIFY]   Negative id=2 vecs=113
+[VERIFY]   positive id=3 vecs=112
+[VERIFY] embedder: /gt/9v-bat-2-embedding.pte (executorch) input=224x224 centered=256
+[EC] open bundle=/gt model=/model/9v-bat-2_QCS8275_8a8w.pte level=2 version=1.0.1 abi=1
+[VERIFY] track=3 class_2 conf=0.61 -> CONFIRMED (matched=Negative d=0.419 m=0.058 40754us) group=1/1
+[VERIFY] track=6 class_1 conf=0.71 -> CONFIRMED (matched=Miss_match_Negative d=0.121 m=0.253 24159us) group=2/1
+[VERIFY] track=10 class_1 conf=0.70 -> AMBIGUOUS (matched=Negative d=0.540 m=0.020 11108us) group=3/1
+[VERIFY] track=12 class_0 conf=0.82 -> CONFIRMED (matched=Miss_match Positive d=0.344 m=0.118 6735us) group=4/0
+[VERIFY] track=13 class_1 conf=0.70 -> FLIP (matched=positive d=0.441 m=0.054 94642us) FLIP->positive group=4/1
+[VERIFY] track=16 class_2 conf=0.57 -> AMBIGUOUS (matched=Negative d=0.466 m=0.039 19438us) group=5/1
+[VERIFY] track=17 class_3 conf=0.77 -> AMBIGUOUS (matched=positive d=0.446 m=0.047 20123us) group=6/0
+[VERIFY] track=18 class_2 conf=0.89 -> AMBIGUOUS (matched=positive d=0.519 m=0.028 23171us) group=6/1
+[VERIFY] track=24 class_3 conf=0.60 -> CONFIRMED (matched=positive d=0.092 m=0.222 7623us) group=7/1
+[VERIFY] track=27 class_2 conf=0.55 -> AMBIGUOUS (matched=Negative d=0.471 m=0.045 21046us) group=8/1
+[VERIFY] track=29 class_2 conf=0.74 -> CONFIRMED (matched=Negative d=0.396 m=0.060 17144us) group=9/1
+[VERIFY] track=31 class_0 conf=0.68 -> FLIP (matched=Negative d=0.487 m=0.113 77541us) FLIP->Negative group=10/1
+[VERIFY] track=32 class_3 conf=0.70 -> CONFIRMED (matched=positive d=0.472 m=0.082 7951us) group=11/0
+[VERIFY] track=33 class_0 conf=0.54 -> FLIP (matched=Negative d=0.460 m=0.153 68085us) FLIP->Negative group=11/1
+[VERIFY] track=34 class_3 conf=0.70 -> CONFIRMED (matched=positive d=0.391 m=0.095 6528us) group=12/0
+[VERIFY] track=35 class_2 conf=0.60 -> CONFIRMED (matched=Negative d=0.393 m=0.159 17307us) group=12/1
+[VERIFY] track=37 class_0 conf=0.26 -> AMBIGUOUS (matched=positive d=0.420 m=0.011 11661us) group=13/0
+[VERIFY] track=38 class_2 conf=0.55 -> CONFIRMED (matched=Negative d=0.449 m=0.157 32799us) group=13/1
+[VERIFY] track=41 class_3 conf=0.77 -> AMBIGUOUS (matched=positive d=0.538 m=0.014 16749us) group=14/0
+[VERIFY] track=42 class_2 conf=0.55 -> CONFIRMED (matched=Negative d=0.468 m=0.135 16601us) group=14/1
+[VERIFY] track=43 class_3 conf=0.70 -> CONFIRMED (matched=positive d=0.352 m=0.085 9049us) group=15/0
+[VERIFY] track=44 class_2 conf=0.77 -> CONFIRMED (matched=Negative d=0.493 m=0.071 11635us) group=15/1
+[VERIFY] track=46 class_3 conf=0.60 -> AMBIGUOUS (matched=positive d=0.356 m=0.046 16288us) group=16/0
+[VERIFY] track=47 class_2 conf=0.65 -> CONFIRMED (matched=Negative d=0.476 m=0.146 12770us) group=16/1
+[VERIFY] track=49 class_3 conf=0.65 -> CONFIRMED (matched=positive d=0.425 m=0.079 6110us) group=17/0
+[VERIFY] track=50 class_0 conf=0.64 -> FLIP (matched=Negative d=0.443 m=0.135 77620us) FLIP->Negative group=17/1
+[VERIFY] track=52 class_3 conf=0.77 -> CONFIRMED (matched=positive d=0.386 m=0.075 8121us) group=18/0
+[VERIFY] track=53 class_2 conf=0.70 -> CONFIRMED (matched=Negative d=0.528 m=0.085 22489us) group=18/1
+[VERIFY] track=54 class_3 conf=0.70 -> CONFIRMED (matched=positive d=0.371 m=0.064 8893us) group=19/0
+[VERIFY] track=55 class_2 conf=0.35 -> CONFIRMED (matched=Negative d=0.482 m=0.115 6434us) group=19/1
+[VERIFY] track=57 class_2 conf=0.60 -> AMBIGUOUS (matched=Negative d=0.426 m=0.037 22688us) group=20/1
+[VERIFY] track=59 class_2 conf=0.82 -> CONFIRMED (matched=Negative d=0.391 m=0.063 6828us) group=21/1
+[VERIFY] track=60 class_0 conf=0.77 -> CONFIRMED (matched=Miss_match Positive d=0.352 m=0.086 12217us) group=22/0
+[VERIFY] track=61 class_1 conf=0.60 -> AMBIGUOUS (matched=Miss_match_Negative d=0.447 m=0.039 12842us) group=22/1
+[VERIFY] track=62 class_3 conf=0.65 -> AMBIGUOUS (matched=positive d=0.448 m=0.018 25722us) group=23/0
+[VERIFY] track=63 class_1 conf=0.68 -> AMBIGUOUS (matched=Miss_match_Negative d=0.517 m=0.011 26182us) group=23/1
+[VERIFY] track=64 class_0 conf=0.64 -> FLIP (matched=positive d=0.451 m=0.064 101104us) FLIP->positive group=24/0
+[VERIFY] track=66 class_1 conf=0.70 -> AMBIGUOUS (matched=Negative d=0.597 m=0.028 22161us) group=24/1
+[VERIFY] track=67 class_2 conf=0.71 -> CONFIRMED (matched=Negative d=0.284 m=0.139 26445us) group=25/0
+[VERIFY] track=68 class_3 conf=0.84 -> CONFIRMED (matched=positive d=0.149 m=0.170 22983us) group=25/1
+[VERIFY] track=69 class_2 conf=0.46 -> CONFIRMED (matched=Negative d=0.222 m=0.143 10542us) group=26/0
+[VERIFY] track=70 class_3 conf=0.70 -> CONFIRMED (matched=positive d=0.484 m=0.071 20108us) group=26/1
+[VERIFY] track=71 class_3 conf=0.65 -> CONFIRMED (matched=positive d=0.425 m=0.110 14135us) group=27/0
+[VERIFY] track=72 class_2 conf=0.74 -> CONFIRMED (matched=Negative d=0.441 m=0.100 19101us) group=27/1
+[VERIFY] track=75 class_2 conf=0.61 -> CONFIRMED (matched=Negative d=0.419 m=0.058 14718us) group=28/1
+[VERIFY] track=78 class_1 conf=0.71 -> CONFIRMED (matched=Miss_match_Negative d=0.121 m=0.253 18511us) group=29/1
+[VERIFY] track=82 class_1 conf=0.81 -> AMBIGUOUS (matched=Miss_match_Negative d=0.547 m=0.023 7219us) group=30/1
+[VERIFY] track=84 class_0 conf=0.82 -> CONFIRMED (matched=Miss_match Positive d=0.344 m=0.118 7207us) group=31/0
+[VERIFY] track=85 class_1 conf=0.70 -> FLIP (matched=positive d=0.441 m=0.054 102599us) FLIP->positive group=31/1
+[VERIFY] track=88 class_2 conf=0.57 -> AMBIGUOUS (matched=Negative d=0.466 m=0.039 37643us) group=32/1
+[VERIFY] track=89 class_3 conf=0.77 -> AMBIGUOUS (matched=positive d=0.446 m=0.047 22808us) group=33/0
+[VERIFY] track=90 class_2 conf=0.89 -> AMBIGUOUS (matched=positive d=0.519 m=0.028 14244us) group=33/1
+[VERIFY] track=96 class_3 conf=0.60 -> CONFIRMED (matched=positive d=0.092 m=0.222 15877us) group=34/1
+[VERIFY] track=99 class_2 conf=0.55 -> AMBIGUOUS (matched=Negative d=0.471 m=0.045 11228us) group=35/1
+[VERIFY] track=101 class_2 conf=0.74 -> CONFIRMED (matched=Negative d=0.396 m=0.060 14118us) group=36/1
+[VERIFY] track=103 class_0 conf=0.68 -> FLIP (matched=Negative d=0.487 m=0.113 72498us) FLIP->Negative group=37/1
+[VERIFY] track=104 class_3 conf=0.70 -> CONFIRMED (matched=positive d=0.472 m=0.082 8016us) group=38/0
+[VERIFY] track=105 class_0 conf=0.54 -> FLIP (matched=Negative d=0.460 m=0.153 108986us) FLIP->Negative group=38/1
+[VERIFY] track=106 class_3 conf=0.70 -> CONFIRMED (matched=positive d=0.391 m=0.095 12352us) group=39/0
+[VERIFY] track=107 class_2 conf=0.60 -> CONFIRMED (matched=Negative d=0.393 m=0.159 6335us) group=39/1
+[VERIFY] track=109 class_0 conf=0.26 -> AMBIGUOUS (matched=positive d=0.420 m=0.011 12467us) group=40/0
+[VERIFY] track=110 class_2 conf=0.55 -> CONFIRMED (matched=Negative d=0.449 m=0.157 21599us) group=40/1
+[VERIFY] track=113 class_3 conf=0.77 -> AMBIGUOUS (matched=positive d=0.538 m=0.014 6925us) group=41/0
+[VERIFY] track=114 class_2 conf=0.55 -> CONFIRMED (matched=Negative d=0.468 m=0.135 16746us) group=41/1
+[VERIFY] track=115 class_3 conf=0.70 -> CONFIRMED (matched=positive d=0.352 m=0.085 12319us) group=42/0
+[VERIFY] track=116 class_2 conf=0.77 -> CONFIRMED (matched=Negative d=0.493 m=0.071 9434us) group=42/1
+[VERIFY] track=118 class_3 conf=0.60 -> AMBIGUOUS (matched=positive d=0.356 m=0.046 9763us) group=43/0
+[VERIFY] track=119 class_2 conf=0.65 -> CONFIRMED (matched=Negative d=0.476 m=0.146 14119us) group=43/1
+[VERIFY] track=121 class_3 conf=0.65 -> CONFIRMED (matched=positive d=0.425 m=0.079 11723us) group=44/0
+[VERIFY] track=122 class_0 conf=0.64 -> FLIP (matched=Negative d=0.443 m=0.135 68510us) FLIP->Negative group=44/1
+[VERIFY] track=124 class_3 conf=0.77 -> CONFIRMED (matched=positive d=0.386 m=0.075 12283us) group=45/0
+[VERIFY] track=125 class_2 conf=0.70 -> CONFIRMED (matched=Negative d=0.528 m=0.085 28613us) group=45/1
+[VERIFY] track=126 class_3 conf=0.70 -> CONFIRMED (matched=positive d=0.371 m=0.064 12498us) group=46/0
+[VERIFY] track=127 class_2 conf=0.35 -> CONFIRMED (matched=Negative d=0.482 m=0.115 13341us) group=46/1
+[VERIFY] track=129 class_2 conf=0.60 -> AMBIGUOUS (matched=Negative d=0.426 m=0.037 16143us) group=47/1
+[VERIFY] track=131 class_2 conf=0.82 -> CONFIRMED (matched=Negative d=0.391 m=0.063 7343us) group=48/1
+[VERIFY] track=132 class_0 conf=0.77 -> CONFIRMED (matched=Miss_match Positive d=0.352 m=0.086 25562us) group=49/0

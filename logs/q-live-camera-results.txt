@@ -1,0 +1,181 @@
+2026-10-18 10:46:22 | ShiftA | TOTAL:1 | GO:0 | NG:1 | RESULT:NG | LL:Miss_Match_Positive 86.33% | LR:Miss_Match_Negative 86.33% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:46:41 | ShiftA | TOTAL:2 | GO:0 | NG:2 | RESULT:NG | LL:Miss_Match_Positive 83.98% | LR:Miss_Match_Negative 83.98% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:47:17 | ShiftA | TOTAL:3 | GO:0 | NG:3 | RESULT:NG | LL:Positive 88.67% | LR:Miss_Match_Positive 88.67% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:47:34 | ShiftA | TOTAL:4 | GO:0 | NG:4 | RESULT:NG | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:48:50 | ShiftA | TOTAL:5 | GO:0 | NG:5 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:49:07 | ShiftA | TOTAL:6 | GO:0 | NG:6 | RESULT:NG | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:49:25 | ShiftA | TOTAL:7 | GO:0 | NG:7 | RESULT:NG | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:50:22 | ShiftA | TOTAL:8 | GO:0 | NG:8 | RESULT:NG | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:51:32 | ShiftA | TOTAL:9 | GO:0 | NG:9 | RESULT:NG | LL:Positive 67.58% | LR:Miss_Match_Positive 67.58% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:51:51 | ShiftA | TOTAL:10 | GO:0 | NG:10 | RESULT:NG | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:52:30 | ShiftA | TOTAL:11 | GO:0 | NG:11 | RESULT:NG | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:52:51 | ShiftA | TOTAL:12 | GO:0 | NG:12 | RESULT:NG | LL:Miss_Match_Positive 86.33% | LR:Miss_Match_Negative 86.33% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:53:09 | ShiftA | TOTAL:13 | GO:0 | NG:13 | RESULT:NG | LL:Miss_Match_Positive 83.98% | LR:Miss_Match_Negative 83.98% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:53:32 | ShiftA | TOTAL:14 | GO:0 | NG:14 | RESULT:NG | LL:Miss_Match_Positive 69.53% | LR:Miss_Match_Negative 69.53% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:53:51 | ShiftA | TOTAL:15 | GO:0 | NG:15 | RESULT:NG | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:54:13 | ShiftA | TOTAL:16 | GO:0 | NG:16 | RESULT:NG | LL:Positive 83.98% | LR:Negative 83.98% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:54:34 | ShiftA | TOTAL:17 | GO:0 | NG:17 | RESULT:NG | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:55:37 | ShiftA | TOTAL:18 | GO:0 | NG:18 | RESULT:NG | LL:Miss_Match_Positive 86.33% | LR:Miss_Match_Negative 86.33% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:55:56 | ShiftA | TOTAL:19 | GO:0 | NG:19 | RESULT:NG | LL:Miss_Match_Positive 83.98% | LR:Miss_Match_Negative 83.98% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:56:31 | ShiftA | TOTAL:20 | GO:0 | NG:20 | RESULT:NG | LL:Positive 88.67% | LR:Miss_Match_Positive 88.67% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:56:48 | ShiftA | TOTAL:21 | GO:0 | NG:21 | RESULT:NG | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:58:04 | ShiftA | TOTAL:22 | GO:0 | NG:22 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 10:58:21 | ShiftA | TOTAL:23 | GO:0 | NG:23 | RESULT:NG | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:58:39 | ShiftA | TOTAL:24 | GO:0 | NG:24 | RESULT:NG | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 10:59:36 | ShiftA | TOTAL:25 | GO:0 | NG:25 | RESULT:NG | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 11:00:47 | ShiftA | TOTAL:26 | GO:0 | NG:26 | RESULT:NG | LL:Positive 67.58% | LR:Miss_Match_Positive 67.58% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 11:01:06 | ShiftA | TOTAL:27 | GO:0 | NG:27 | RESULT:NG | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 11:01:44 | ShiftA | TOTAL:28 | GO:0 | NG:28 | RESULT:NG | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 11:02:05 | ShiftA | TOTAL:29 | GO:0 | NG:29 | RESULT:NG | LL:Miss_Match_Positive 86.33% | LR:Miss_Match_Negative 86.33% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 11:02:24 | ShiftA | TOTAL:30 | GO:0 | NG:30 | RESULT:NG | LL:Miss_Match_Positive 83.98% | LR:Miss_Match_Negative 83.98% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 11:02:46 | ShiftA | TOTAL:31 | GO:0 | NG:31 | RESULT:NG | LL:Miss_Match_Positive 69.53% | LR:Miss_Match_Negative 69.53% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 11:03:06 | ShiftA | TOTAL:32 | GO:0 | NG:32 | RESULT:NG | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 11:03:28 | ShiftA | TOTAL:33 | GO:0 | NG:33 | RESULT:NG | LL:Positive 83.98% | LR:Negative 83.98% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 11:03:48 | ShiftA | TOTAL:34 | GO:0 | NG:34 | RESULT:NG | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG | REASON:STICKER
+2026-10-18 11:04:51 | ShiftA | TOTAL:35 | GO:0 | NG:35 | RESULT:NG | LL:Miss_Match_Positive 86.33% | LR:Miss_Match_Negative 86.33% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 11:05:10 | ShiftA | TOTAL:36 | GO:0 | NG:36 | RESULT:NG | LL:Miss_Match_Positive 83.98% | LR:Miss_Match_Negative 83.98% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 11:05:46 | ShiftA | TOTAL:37 | GO:0 | NG:37 | RESULT:NG | LL:Positive 88.67% | LR:Miss_Match_Positive 88.67% | QC:NG | QR:NG | REASON:RESIN STICKER
+2026-10-18 11:06:08 | ShiftA | TOTAL:1 | GO:1 | NG:0 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:07:30 | ShiftA | TOTAL:2 | GO:1 | NG:1 | RESULT:NG | LL:Positive 86.33% | LR:Miss_Match_Positive 86.33% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:07:44 | ShiftA | TOTAL:3 | GO:2 | NG:1 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:08:01 | ShiftA | TOTAL:4 | GO:3 | NG:1 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:08:18 | ShiftA | TOTAL:5 | GO:4 | NG:1 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:08:33 | ShiftA | TOTAL:6 | GO:5 | NG:1 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:08:44 | ShiftA | TOTAL:7 | GO:6 | NG:1 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:08:53 | ShiftA | TOTAL:8 | GO:7 | NG:1 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:09:04 | ShiftA | TOTAL:9 | GO:7 | NG:2 | RESULT:NG | LL:Miss_Match_Positive 83.98% | LR:Positive 83.98% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:09:15 | ShiftA | TOTAL:10 | GO:8 | NG:2 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:09:27 | ShiftA | TOTAL:11 | GO:9 | NG:2 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:09:38 | ShiftA | TOTAL:12 | GO:10 | NG:2 | RESULT:GO | LL:Positive 67.58% | LR:Negative 67.58% | QC:NG | QR:NG
+2026-10-18 11:10:16 | ShiftA | TOTAL:13 | GO:11 | NG:2 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:10:34 | ShiftA | TOTAL:14 | GO:11 | NG:3 | RESULT:NG | LL:Positive 88.67% | LR:Miss_Match_Positive 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:11:50 | ShiftA | TOTAL:1 | GO:0 | NG:1 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:13:00 | ShiftA | TOTAL:2 | GO:0 | NG:2 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:14:22 | ShiftA | TOTAL:3 | GO:0 | NG:3 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:14:39 | ShiftA | TOTAL:4 | GO:1 | NG:3 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:15:53 | ShiftA | TOTAL:5 | GO:1 | NG:4 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:16:10 | ShiftA | TOTAL:6 | GO:2 | NG:4 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:16:37 | ShiftA | TOTAL:7 | GO:3 | NG:4 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:17:33 | ShiftA | TOTAL:8 | GO:3 | NG:5 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:17:50 | ShiftA | TOTAL:9 | GO:4 | NG:5 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:18:08 | ShiftA | TOTAL:10 | GO:5 | NG:5 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:19:27 | ShiftA | TOTAL:11 | GO:5 | NG:6 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:19:44 | ShiftA | TOTAL:12 | GO:6 | NG:6 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:20:02 | ShiftA | TOTAL:13 | GO:7 | NG:6 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:21:25 | ShiftA | TOTAL:14 | GO:7 | NG:7 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:21:42 | ShiftA | TOTAL:15 | GO:8 | NG:7 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:22:00 | ShiftA | TOTAL:16 | GO:9 | NG:7 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:23:28 | ShiftA | TOTAL:17 | GO:9 | NG:8 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:23:45 | ShiftA | TOTAL:18 | GO:10 | NG:8 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:24:03 | ShiftA | TOTAL:19 | GO:11 | NG:8 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:25:36 | ShiftA | TOTAL:20 | GO:11 | NG:9 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:25:53 | ShiftA | TOTAL:21 | GO:12 | NG:9 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:26:11 | ShiftA | TOTAL:22 | GO:13 | NG:9 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:28:00 | ShiftA | TOTAL:23 | GO:13 | NG:10 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:28:17 | ShiftA | TOTAL:24 | GO:14 | NG:10 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:28:35 | ShiftA | TOTAL:25 | GO:15 | NG:10 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:30:29 | ShiftA | TOTAL:26 | GO:15 | NG:11 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:30:46 | ShiftA | TOTAL:27 | GO:16 | NG:11 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:31:04 | ShiftA | TOTAL:28 | GO:17 | NG:11 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:31:59 | ShiftA | TOTAL:29 | GO:17 | NG:12 | RESULT:NG | LL:Positive 86.33% | LR:Miss_Match_Positive 86.33% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:32:21 | ShiftA | TOTAL:30 | GO:18 | NG:12 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:33:18 | ShiftA | TOTAL:31 | GO:18 | NG:13 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:33:35 | ShiftA | TOTAL:32 | GO:19 | NG:13 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:33:53 | ShiftA | TOTAL:33 | GO:20 | NG:13 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:34:47 | ShiftA | TOTAL:34 | GO:20 | NG:14 | RESULT:NG | LL:Positive 86.33% | LR:Miss_Match_Positive 86.33% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:35:01 | ShiftA | TOTAL:35 | GO:21 | NG:14 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:35:17 | ShiftA | TOTAL:36 | GO:22 | NG:14 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:36:31 | ShiftA | TOTAL:37 | GO:22 | NG:15 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:36:48 | ShiftA | TOTAL:38 | GO:23 | NG:15 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:37:06 | ShiftA | TOTAL:39 | GO:24 | NG:15 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:38:01 | ShiftA | TOTAL:40 | GO:24 | NG:16 | RESULT:NG | LL:Positive 86.33% | LR:Miss_Match_Positive 86.33% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:38:14 | ShiftA | TOTAL:41 | GO:25 | NG:16 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:38:31 | ShiftA | TOTAL:42 | GO:26 | NG:16 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:38:48 | ShiftA | TOTAL:43 | GO:27 | NG:16 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:39:59 | ShiftA | TOTAL:44 | GO:27 | NG:17 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:40:16 | ShiftA | TOTAL:45 | GO:28 | NG:17 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:40:34 | ShiftA | TOTAL:46 | GO:29 | NG:17 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 11:41:29 | ShiftA | TOTAL:47 | GO:29 | NG:18 | RESULT:NG | LL:Positive 86.33% | LR:Miss_Match_Positive 86.33% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 11:41:43 | ShiftA | TOTAL:48 | GO:30 | NG:18 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:41:59 | ShiftA | TOTAL:49 | GO:31 | NG:18 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:42:16 | ShiftA | TOTAL:50 | GO:32 | NG:18 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 11:42:31 | ShiftA | TOTAL:51 | GO:33 | NG:18 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 12:50:09 | ShiftA | TOTAL:1 | GO:1 | NG:0 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 12:50:27 | ShiftA | TOTAL:2 | GO:1 | NG:1 | RESULT:NG | LL:Miss_Match_Positive 83.98% | LR:Miss_Match_Negative 83.98% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:50:47 | ShiftA | TOTAL:3 | GO:1 | NG:2 | RESULT:NG | LL:Miss_Match_Positive 69.53% | LR:Miss_Match_Negative 69.53% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:51:06 | ShiftA | TOTAL:4 | GO:1 | NG:3 | RESULT:NG | LL:Miss_Match_Positive 86.33% | LR:Miss_Match_Negative 86.33% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:51:23 | ShiftA | TOTAL:5 | GO:2 | NG:3 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 12:51:41 | ShiftA | TOTAL:6 | GO:3 | NG:3 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 12:52:03 | ShiftA | TOTAL:1 | GO:1 | NG:0 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 12:52:21 | ShiftA | TOTAL:2 | GO:1 | NG:1 | RESULT:NG | LL:Miss_Match_Positive 83.98% | LR:Miss_Match_Negative 83.98% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:52:41 | ShiftA | TOTAL:3 | GO:1 | NG:2 | RESULT:NG | LL:Miss_Match_Positive 69.53% | LR:Miss_Match_Negative 69.53% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:53:00 | ShiftA | TOTAL:4 | GO:1 | NG:3 | RESULT:NG | LL:Miss_Match_Positive 86.33% | LR:Miss_Match_Negative 86.33% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:53:17 | ShiftA | TOTAL:5 | GO:2 | NG:3 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 12:53:35 | ShiftA | TOTAL:6 | GO:3 | NG:3 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 12:53:52 | ShiftA | TOTAL:7 | GO:3 | NG:4 | RESULT:NG | LL:Negative 88.67% | LR:Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:53:59 | ShiftA | TOTAL:8 | GO:3 | NG:5 | RESULT:NG | LL:Positive 50.00% | LR:Positive 50.00% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:54:10 | ShiftA | TOTAL:9 | GO:4 | NG:5 | RESULT:GO | LL:Positive 50.00% | LR:Negative 50.00% | QC:NG | QR:NG
+2026-10-18 12:54:29 | ShiftA | TOTAL:10 | GO:5 | NG:5 | RESULT:GO | LL:Positive 73.83% | LR:Negative 73.83% | QC:NG | QR:NG
+2026-10-18 12:54:43 | ShiftA | TOTAL:11 | GO:5 | NG:6 | RESULT:NG | LL:Positive 83.98% | LR:Miss_Match_Positive 83.98% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:54:59 | ShiftA | TOTAL:12 | GO:5 | NG:7 | RESULT:NG | LL:Positive 77.34% | LR:Positive 77.34% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:55:17 | ShiftA | TOTAL:13 | GO:6 | NG:7 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 12:55:32 | ShiftA | TOTAL:14 | GO:7 | NG:7 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 12:55:43 | ShiftA | TOTAL:15 | GO:8 | NG:7 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 12:55:52 | ShiftA | TOTAL:16 | GO:9 | NG:7 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 12:56:03 | ShiftA | TOTAL:17 | GO:9 | NG:8 | RESULT:NG | LL:Positive 83.98% | LR:Miss_Match_Positive 83.98% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:56:14 | ShiftA | TOTAL:18 | GO:10 | NG:8 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 12:56:26 | ShiftA | TOTAL:19 | GO:11 | NG:8 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 12:56:50 | ShiftA | TOTAL:20 | GO:12 | NG:8 | RESULT:GO | LL:Positive 81.64% | LR:Negative 81.64% | QC:NG | QR:NG
+2026-10-18 12:57:00 | ShiftA | TOTAL:21 | GO:12 | NG:9 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:57:19 | ShiftA | TOTAL:22 | GO:12 | NG:10 | RESULT:NG | LL:Miss_Match_Positive 86.33% | LR:Miss_Match_Negative 86.33% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:57:42 | ShiftA | TOTAL:23 | GO:12 | NG:11 | RESULT:NG | LL:Miss_Match_Positive 69.53% | LR:Miss_Match_Negative 69.53% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 12:58:01 | ShiftA | TOTAL:24 | GO:13 | NG:11 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 12:58:23 | ShiftA | TOTAL:25 | GO:14 | NG:11 | RESULT:GO | LL:Positive 83.98% | LR:Negative 83.98% | QC:NG | QR:NG
+2026-10-18 12:58:44 | ShiftA | TOTAL:26 | GO:15 | NG:11 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 12:59:04 | ShiftA | TOTAL:27 | GO:16 | NG:11 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 12:59:22 | ShiftA | TOTAL:28 | GO:16 | NG:12 | RESULT:NG | LL:Miss_Match_Positive 83.98% | LR:Miss_Match_Negative 83.98% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 13:20:18 | ShiftA | TOTAL:1 | GO:1 | NG:0 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:23:26 | ShiftA | TOTAL:2 | GO:2 | NG:0 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:23:50 | ShiftA | TOTAL:3 | GO:3 | NG:0 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:24:14 | ShiftA | TOTAL:1 | GO:1 | NG:0 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 13:24:38 | ShiftA | TOTAL:2 | GO:2 | NG:0 | RESULT:GO | LL:Positive 87.50% | LR:Negative 87.50% | QC:NG | QR:NG
+2026-10-18 13:25:10 | ShiftA | TOTAL:3 | GO:3 | NG:0 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:25:29 | ShiftA | TOTAL:4 | GO:4 | NG:0 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 13:25:50 | ShiftA | TOTAL:5 | GO:5 | NG:0 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 13:26:10 | ShiftA | TOTAL:6 | GO:5 | NG:1 | RESULT:NG | LL:Miss_Match_Positive 88.67% | LR:Miss_Match_Negative 88.67% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 13:26:22 | ShiftA | TOTAL:7 | GO:6 | NG:1 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:27:46 | ShiftA | TOTAL:8 | GO:7 | NG:1 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:28:08 | ShiftA | TOTAL:9 | GO:8 | NG:1 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:28:30 | ShiftA | TOTAL:10 | GO:9 | NG:1 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 13:28:52 | ShiftA | TOTAL:11 | GO:10 | NG:1 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 13:29:14 | ShiftA | TOTAL:12 | GO:11 | NG:1 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:29:36 | ShiftA | TOTAL:13 | GO:12 | NG:1 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:29:57 | ShiftA | TOTAL:14 | GO:13 | NG:1 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 13:30:19 | ShiftA | TOTAL:15 | GO:14 | NG:1 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:30:40 | ShiftA | TOTAL:16 | GO:14 | NG:2 | RESULT:NG | LL:Miss_Match_Positive 80.86% | LR:Positive 80.86% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 13:31:02 | ShiftA | TOTAL:17 | GO:15 | NG:2 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 13:31:24 | ShiftA | TOTAL:18 | GO:16 | NG:2 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:31:45 | ShiftA | TOTAL:19 | GO:16 | NG:3 | RESULT:NG | LL:Positive 64.45% | LR:Miss_Match_Positive 64.45% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 13:32:08 | ShiftA | TOTAL:20 | GO:17 | NG:3 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:32:30 | ShiftA | TOTAL:21 | GO:18 | NG:3 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:32:51 | ShiftA | TOTAL:22 | GO:18 | NG:4 | RESULT:NG | LL:Positive 73.83% | LR:Miss_Match_Positive 73.83% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 13:33:14 | ShiftA | TOTAL:23 | GO:19 | NG:4 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:33:36 | ShiftA | TOTAL:24 | GO:20 | NG:4 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:33:58 | ShiftA | TOTAL:25 | GO:21 | NG:4 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:34:21 | ShiftA | TOTAL:26 | GO:22 | NG:4 | RESULT:GO | LL:Positive 87.50% | LR:Negative 87.50% | QC:NG | QR:NG
+2026-10-18 13:34:43 | ShiftA | TOTAL:27 | GO:23 | NG:4 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:35:05 | ShiftA | TOTAL:28 | GO:24 | NG:4 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 13:35:28 | ShiftA | TOTAL:29 | GO:25 | NG:4 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:35:50 | ShiftA | TOTAL:30 | GO:26 | NG:4 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:36:13 | ShiftA | TOTAL:31 | GO:26 | NG:5 | RESULT:NG | LL:Positive 73.83% | LR:Miss_Match_Positive 73.83% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 13:36:36 | ShiftA | TOTAL:32 | GO:27 | NG:5 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 13:36:58 | ShiftA | TOTAL:33 | GO:28 | NG:5 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 13:37:21 | ShiftA | TOTAL:34 | GO:29 | NG:5 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:37:43 | ShiftA | TOTAL:35 | GO:29 | NG:6 | RESULT:NG | LL:Positive 73.83% | LR:Miss_Match_Positive 73.83% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 13:38:06 | ShiftA | TOTAL:36 | GO:30 | NG:6 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 13:38:29 | ShiftA | TOTAL:37 | GO:30 | NG:7 | RESULT:NG | LL:Miss_Match_Positive 67.58% | LR:Positive 67.58% | QC:NG | QR:NG | REASON:RESIN 
+2026-10-18 13:38:52 | ShiftA | TOTAL:38 | GO:31 | NG:7 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 13:39:15 | ShiftA | TOTAL:39 | GO:32 | NG:7 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:39:38 | ShiftA | TOTAL:40 | GO:33 | NG:7 | RESULT:GO | LL:Positive 88.67% | LR:Negative 88.67% | QC:NG | QR:NG
+2026-10-18 13:40:00 | ShiftA | TOTAL:41 | GO:34 | NG:7 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
+2026-10-18 13:40:22 | ShiftA | TOTAL:42 | GO:35 | NG:7 | RESULT:GO | LL:Positive 86.33% | LR:Negative 86.33% | QC:NG | QR:NG
