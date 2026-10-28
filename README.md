@@ -57,9 +57,6 @@ camera -> model -> judge -> decision -> tower light
 +--------------------------------------------------------------------------+
 | demo        rig: stepper ring, three LED strips, USB camera, HTTP stream  |
 +--------------------------------------------------------------------------+
-| correction  judge at the decision point, lamp-or-model, retrain +         |
-|             hot-swap on the board (Edgeble, patent pending)               |
-+--------------------------------------------------------------------------+
 | edgeble-infer   usecase/resin (gate, counting, outputs)                   |
 |  (ours, C/C++)  lib/ (capture, track, stream, post-process)               |
 |                 platform/qcom: yolo_runner_executorch (A.pte, A+B.pte)    |
@@ -67,6 +64,9 @@ camera -> model -> judge -> decision -> tower light
 | ExecuTorch 1.5.1 runtime + Qualcomm backend (static, aarch64)             |
 +--------------------------------------------------------------------------+
 | QAIRT / QNN HTP runtime: libQnnHtp, V75 stub, V75 skel + DSP library      |
++--------------------------------------------------------------------------+
+| correction  judge at the decision point, lamp-or-model, retrain +         |
+|             hot-swap on the board (Edgeble, patent pending)               |
 +--------------------------------------------------------------------------+
 | Ubuntu 24.04 (kernel 6.8 qcom), fastrpc, docker                            |
 +--------------------------------------------------------------------------+
